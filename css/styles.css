@@ -426,8 +426,7 @@ img {
   background-color: var(--bg-color);
   border-radius: 50%;
 
-  transition: background-color var(--transition-timing-function),
-    fill var(--transition-timing-function);
+  transition: background-color var(--transition-timing-function);
 }
 
 .social-item:not(:last-child) {
@@ -472,8 +471,7 @@ img {
   border: 1px solid var(--social-icon-border-icon);
   border-radius: 4px;
 
-  transition: background-color var(--transition-timing-function),
-    fill var(--transition-timing-function);
+  transition: border-color var(--transition-timing-function);
 }
 
 .clients-icon {
@@ -595,8 +593,7 @@ address {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 
-  transition: background-color var(--transition-timing-function),
-    fill var(--transition-timing-function);
+  transition: background-color var(--transition-timing-function);
 }
 
 .footer-social-item:not(:last-child) {
